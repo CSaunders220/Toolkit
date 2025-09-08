@@ -1,0 +1,170 @@
+#TYPE System.IO.FileInfo
+"PSPath","PSParentPath","PSChildName","PSDrive","PSProvider","PSIsContainer","Mode","VersionInfo","BaseName","Target","LinkType","Name","Length","DirectoryName","Directory","IsReadOnly","Exists","FullName","Extension","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Basics_Networking.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","Basics_Networking.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Basics_Networking.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Basics_Networking","System.Collections.Generic.List`1[System.String]",,"Basics_Networking.ps1","141","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Basics_Networking.ps1",".ps1","9/7/2025 5:44:56 PM","9/7/2025 9:44:56 PM","9/7/2025 5:44:56 PM","9/7/2025 9:44:56 PM","9/7/2025 5:44:56 PM","9/7/2025 9:44:56 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Create-outfolder.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","Create-outfolder.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Create-outfolder.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Create-outfolder","System.Collections.Generic.List`1[System.String]",,"Create-outfolder.ps1","239","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Create-outfolder.ps1",".ps1","9/7/2025 8:59:35 PM","9/8/2025 12:59:35 AM","9/7/2025 9:01:49 PM","9/8/2025 1:01:49 AM","9/7/2025 9:01:49 PM","9/8/2025 1:01:49 AM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\File-Contents-To-CSV.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","File-Contents-To-CSV.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\File-Contents-To-CSV.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","File-Contents-To-CSV","System.Collections.Generic.List`1[System.String]",,"File-Contents-To-CSV.ps1","202","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\File-Contents-To-CSV.ps1",".ps1","9/7/2025 9:06:07 PM","9/8/2025 1:06:07 AM","9/7/2025 9:06:09 PM","9/8/2025 1:06:09 AM","9/7/2025 9:06:09 PM","9/8/2025 1:06:09 AM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\firstFile.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","firstFile.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\firstFile.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","firstFile","System.Collections.Generic.List`1[System.String]",,"firstFile.ps1","22","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\firstFile.ps1",".ps1","9/5/2025 10:09:16 PM","9/6/2025 2:09:16 AM","9/5/2025 10:09:47 PM","9/6/2025 2:09:47 AM","9/5/2025 10:09:47 PM","9/6/2025 2:09:47 AM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Get-DHCPServerIP.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","Get-DHCPServerIP.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Get-DHCPServerIP.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Get-DHCPServerIP","System.Collections.Generic.List`1[System.String]",,"Get-DHCPServerIP.ps1","169","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Get-DHCPServerIP.ps1",".ps1","9/7/2025 6:32:00 PM","9/7/2025 10:32:00 PM","9/7/2025 6:42:36 PM","9/7/2025 10:42:36 PM","9/7/2025 6:42:36 PM","9/7/2025 10:42:36 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Get-DNS-ServerAddress.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","Get-DNS-ServerAddress.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Get-DNS-ServerAddress.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Get-DNS-ServerAddress","System.Collections.Generic.List`1[System.String]",,"Get-DNS-ServerAddress.ps1","208","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Get-DNS-ServerAddress.ps1",".ps1","9/7/2025 6:44:25 PM","9/7/2025 10:44:25 PM","9/7/2025 6:52:00 PM","9/7/2025 10:52:00 PM","9/7/2025 6:52:00 PM","9/7/2025 10:52:00 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\IP-From-EthernetInterface.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","IP-From-EthernetInterface.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\IP-From-EthernetInterface.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","IP-From-EthernetInterface","System.Collections.Generic.List`1[System.String]",,"IP-From-EthernetInterface.ps1","143","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\IP-From-EthernetInterface.ps1",".ps1","9/7/2025 5:55:09 PM","9/7/2025 9:55:09 PM","9/7/2025 6:00:35 PM","9/7/2025 10:00:35 PM","9/7/2025 6:00:35 PM","9/7/2025 10:00:35 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\LAdminUserCreation.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","LAdminUserCreation.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\LAdminUserCreation.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","LAdminUserCreation","System.Collections.Generic.List`1[System.String]",,"LAdminUserCreation.ps1","505","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\LAdminUserCreation.ps1",".ps1","9/5/2025 10:07:21 PM","9/6/2025 2:07:21 AM","9/5/2025 10:07:21 PM","9/6/2025 2:07:21 AM","9/5/2025 10:07:21 PM","9/6/2025 2:07:21 AM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\List-Files-PWD.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","List-Files-PWD.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\List-Files-PWD.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","List-Files-PWD","System.Collections.Generic.List`1[System.String]",,"List-Files-PWD.ps1","174","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\List-Files-PWD.ps1",".ps1","9/7/2025 8:54:44 PM","9/8/2025 12:54:44 AM","9/7/2025 8:54:44 PM","9/8/2025 12:54:44 AM","9/7/2025 8:54:44 PM","9/8/2025 12:54:44 AM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\PrefixLength-from-Interface.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","PrefixLength-from-Interface.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\PrefixLength-from-Interface.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","PrefixLength-from-Interface","System.Collections.Generic.List`1[System.String]",,"PrefixLength-from-Interface.ps1","156","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\PrefixLength-from-Interface.ps1",".ps1","9/7/2025 5:57:13 PM","9/7/2025 9:57:13 PM","9/7/2025 5:58:11 PM","9/7/2025 9:58:11 PM","9/7/2025 5:58:11 PM","9/7/2025 9:58:11 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Win32-Library-Net-Search-Aplha.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","Win32-Library-Net-Search-Aplha.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Win32-Library-Net-Search-Aplha.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Win32-Library-Net-Search-Aplha","System.Collections.Generic.List`1[System.String]",,"Win32-Library-Net-Search-Aplha.ps1","170","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Win32-Library-Net-Search-Aplha.ps1",".ps1","9/7/2025 6:23:23 PM","9/7/2025 10:23:23 PM","9/7/2025 6:23:23 PM","9/7/2025 10:23:23 PM","9/7/2025 6:23:23 PM","9/7/2025 10:23:23 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Win32-Library-Net-Search.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","Win32-Library-Net-Search.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Win32-Library-Net-Search.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Win32-Library-Net-Search","System.Collections.Generic.List`1[System.String]",,"Win32-Library-Net-Search.ps1","127","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01","False","True","C:\Users\chris.saunders-loc\Toolkit\SYS-320\Week01\Win32-Library-Net-Search.ps1",".ps1","9/7/2025 6:03:22 PM","9/7/2025 10:03:22 PM","9/7/2025 6:20:27 PM","9/7/2025 10:20:27 PM","9/7/2025 6:20:27 PM","9/7/2025 10:20:27 PM","Archive"
