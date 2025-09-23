@@ -7,9 +7,9 @@ function getWebTrafficLogs($webpage, $browser, $status){
     $logs = Get-Content C:\xampp\apache\logs\access.log
     
     $FilteredLogs = @()
-    $FilteredLogs += $logs | Where-Object {$_ -contains "$browser"} | Where-Object {$_ -contains "$status"} | Where-Object {$_ -contains "$webpage"}
-    
-    Write-Host $FilteredLogs
+    $FilteredLogs += $logs | Where-Object {$_ -contains "$browser"} |
+     Where-Object {$_ -contains "$status"} |
+     Where-Object {$_ -contains "$webpage"}
 
     $FilteredLogs | ForEach-Object {
         $IP = ($_ -split "\s")[0]

@@ -9,6 +9,4 @@ $ips = @()
         $ips += [PSCustomObject]@{ "IP" = $ipsUnorganized[$i].value}
     }
 
-$ipoftens = $ips | Where-Object { $_.IP -ilike "10.*" }
-$counts = $ipoftens | Group-Object IP
-$counts | Select-Object Count, Name
+$ips | Where-Object {$_.IP -ilike "10.*"}
