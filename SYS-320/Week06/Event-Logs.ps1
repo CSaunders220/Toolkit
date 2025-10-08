@@ -1,4 +1,5 @@
 ﻿. (Join-Path $PSScriptRoot String-Helper.ps1)
+Clear-Host
 
 
 <# ******************************
@@ -56,10 +57,11 @@ function getFailedLogins($timeBack){
     $account=""
     $domain="" 
 
-    $usrlines = getMatchingLines $failedlogins[$i].Message "*Account Name*"
+    $usrlines = getMatchingLines($failedlogins[$i].Message, "*Account Name*")
     $usr = $usrlines[1].Split(":")[1].trim()
 
-    $dmnlines = getMatchingLines $failedlogins[$i].Message "*Account Domain*"
+    # No domain exists in environment, Local accounts only so therefore no domain?
+    $dmnlines = getMatchingLines($failedlogins[$i].Message, "*Account Domain*")
     $dmn = $dmnlines[1].Split(":")[1].trim()
 
     $user = $dmn+"\"+$usr;
@@ -67,10 +69,13 @@ function getFailedLogins($timeBack){
     $failedloginsTable += [pscustomobject]@{"Time" = $failedlogins[$i].TimeGenerated; `
                                        "Id" = $failedlogins[$i].InstanceId; `
                                     "Event" = "Failed"; `
-                                     "User" = $user;
+                                     "User" = $usr;
                                      }
 
     }
 
     return $failedloginsTable
 } # End of function getFailedLogins
+
+$test = getFailedLogins 90
+$test | Format-Table -Wrap

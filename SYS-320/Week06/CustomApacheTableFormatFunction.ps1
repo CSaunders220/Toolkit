@@ -20,6 +20,3 @@
 
     return $tableRecords | Where-Object {$_.IP -ilike "10.*"}
 }
-
-$tableRecords = ApacheLogs
-$tableRecords | Format-Table -Autosize -Wrap

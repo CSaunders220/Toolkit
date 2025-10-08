@@ -1,7 +1,6 @@
 ﻿. (Join-Path $PSScriptRoot Users.ps1)
 . (Join-Path $PSScriptRoot Event-Logs.ps1)
-
-clear
+. (Join-Path $PSScriptRoot String-Helper.ps1)
 
 $Prompt = "`n"
 $Prompt += "Please choose your operation:`n"
@@ -13,7 +12,8 @@ $Prompt += "5 - Enable a User`n"
 $Prompt += "6 - Disable a User`n"
 $Prompt += "7 - Get Log-In Logs`n"
 $Prompt += "8 - Get Failed Log-In Logs`n"
-$Prompt += "9 - Exit`n"
+$Prompt += "9 - Get Failed User Logons`n"
+$Prompt += "0 - Exit the Program`n"
 
 
 
@@ -26,7 +26,7 @@ while($operation){
     $choice = Read-Host 
 
 
-    if($choice -eq 9){
+    if($choice -eq 0){
         Write-Host "Goodbye" | Out-String
         exit
         $operation = $false 
@@ -49,25 +49,33 @@ while($operation){
         $name = Read-Host -Prompt "Please enter the username for the new user"
         $password = Read-Host -AsSecureString -Prompt "Please enter the password for the new user"
 
-        # TODO: Create a function called checkUser in Users that: 
+        if (checkUser $name -eq $true){
+            Write-Host "User already exists!"
+        }
+        elseif (checkUser $name -eq $false){
+            if (checkPassword $password -eq $false){
+                Write-Host "Password does not meet requirements!"
+            }
+            elseif (checkPassword $password -eq $true){
+                createAUser $name $password
+                Write-Host "User: $name is created." | Out-String
+            }
+        }
+        # DONE: Create a function called checkUser in Users that: 
         #              - Checks if user a exists. 
         #              - If user exists, returns true, else returns false
-        # TODO: Check the given username with your new function.
+        # DONE: Check the given username with your new function.
         #              - If false is returned, continue with the rest of the function
         #              - If true is returned, do not continue and inform the user
         #
-        # TODO: Create a function called checkPassword in String-Helper that:
+        # DONE: Create a function called checkPassword in String-Helper that:
         #              - Checks if the given string is at least 6 characters
         #              - Checks if the given string contains at least 1 special character, 1 number, and 1 letter
         #              - If the given string does not satisfy conditions, returns false
         #              - If the given string satisfy the conditions, returns true
-        # TODO: Check the given password with your new function. 
+        # DONE: Check the given password with your new function. 
         #              - If false is returned, do not continue and inform the user
         #              - If true is returned, continue with the rest of the function
-
-        createAUser $name $password
-
-        Write-Host "User: $name is created." | Out-String
     }
 
 
@@ -76,7 +84,7 @@ while($operation){
 
         $name = Read-Host -Prompt "Please enter the username for the user to be removed"
 
-        if ((checkUser $name) == True){
+        if (checkUser $name -eq True){
 
         removeAUser $name
 
@@ -94,7 +102,7 @@ while($operation){
 
         $name = Read-Host -Prompt "Please enter the username for the user to be enabled"
 
-        if ((checkUser $name) == True){
+        if (checkUser $name -eq True){
 
         enableAUser $name
 
@@ -111,7 +119,7 @@ while($operation){
 
         $name = Read-Host -Prompt "Please enter the username for the user to be disabled"
 
-        if ((checkUser $name) == True){
+        if (checkUser $name -eq True){
 
         disableAUser $name
 
@@ -127,7 +135,7 @@ while($operation){
 
         $name = Read-Host -Prompt "Please enter the username for the user logs"
 
-        if ((checkUser $name) == True){
+        if (checkUser $name -eq True){
 
         $userLogins = getLogInAndOffs 90
 
@@ -143,10 +151,10 @@ while($operation){
 
         $name = Read-Host -Prompt "Please enter the username for the user's failed login logs"
 
-        if ((checkUser $name) == True){
+        if (checkUser $name -eq True){
 
         $userLogins = getFailedLogins 90
-        # TODO: Change the above line in a way that, the days 90 should be taken from the user
+        # DONE: Change the above line in a way that, the days 90 should be taken from the user
 
         Write-Host ($userLogins | Where-Object { $_.User -ilike "*$name"} | Format-Table | Out-String)
         }
@@ -155,13 +163,24 @@ while($operation){
         }
     }
 
+    elseif($choice -eq 9){
 
-    # TODO: Create another choice "List at Risk Users" that
+        $days = Read-Host -Prompt "Please enter the amount of days to check"
+        $output = getFailedLogins $days
+        Write-Host $output | Format-Table -Autosize -Wrap
+    }
+
+    else {
+        Write-Host "Option is invalid, try again."
+    }
+
+
+    # DONE: Create another choice "List at Risk Users" that
     #              - Lists all the users with more than 10 failed logins in the last <User Given> days.  
     #                (You might need to create some failed logins to test)
     #              - Do not forget to update prompt and option numbers
     
-    # TODO: If user enters anything other than listed choices, e.g. a number that is not in the menu   
+    # DONE: If user enters anything other than listed choices, e.g. a number that is not in the menu   
     #       or a character that should not be accepted. Give a proper message to the user and prompt again.
     
 

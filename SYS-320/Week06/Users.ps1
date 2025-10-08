@@ -77,11 +77,12 @@ function enableAUser($name){
 function checkUser($name){
 
    $userToBeChecked = (Get-LocalUser -Name $name -ErrorAction SilentlyContinue) -ne $null
-   if $userToBeChecked {
-      return True
+   
+   if ($userToBeChecked) {
+      return $True
    }
    else {
-      return False
+      return $False
    }
 
 }
