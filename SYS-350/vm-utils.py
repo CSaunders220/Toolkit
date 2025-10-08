@@ -46,7 +46,7 @@ def vmInfo():
         
         if target_vm:
             print(f"Vm Name: {target_vm.name}")
-            print(f"Poser State: {target_vm.runtime.powerState}")
+            print(f"Power State: {target_vm.runtime.powerState}")
             if target_vm.guest and target_vm.guest.ipAddress:
                 print(f"IP Address: {target_vm.guest.ipAddress}")
             print(f"Number of CPUs: {target_vm.summary.config.numCpu}")
@@ -57,7 +57,7 @@ def vmInfo():
     elif vmchoice == "":
         for vm in vms:
             print(f"Vm Name: {vm.name}")
-            print(f"Poser State: {vm.runtime.powerState}")
+            print(f"Power State: {vm.runtime.powerState}")
             if vm.guest and vm.guest.ipAddress:
                 print(f"IP Address: {vm.guest.ipAddress}")
             print(f"Number of CPUs: {vm.summary.config.numCpu}")
