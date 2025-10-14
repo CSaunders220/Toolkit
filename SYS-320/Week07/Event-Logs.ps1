@@ -77,5 +77,12 @@ function getFailedLogins($timeBack){
     return $failedloginsTable
 } # End of function getFailedLogins
 
-$test = getFailedLogins 90
-$test | Format-Table -Wrap
+#code was made with assistance of claude
+function atRiskUsers(){
+     Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4625} | 
+     ForEach-Object {$_.Properties[5].Value} | 
+     Group-Object | 
+     Where-Object {$_.Count -ge 10} | 
+     Select-Object @{N='Username';E={$_.Name}}, Count | 
+     Format-Table -Autosize
+}

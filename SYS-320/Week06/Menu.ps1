@@ -30,7 +30,7 @@ do {
             $failedLogs | Format-Table -Autosize -Wrap
         }
         '3' { 
-
+            $riskyUsers = 
         }
         '4' { 
             openChrome
