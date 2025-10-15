@@ -12,5 +12,3 @@ import ssl
 s=ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
 s.verify_mode=ssl.CERT_NONE
 si=SmartConnect(host=vcenter_conf['vcenter'][0]['vcenterhost'], user=vcenter_conf['vcenter'][0]['vcenteradmin'], pwd=passw, sslContext=s)
-aboutInfo=si.content.about
-print(aboutInfo)
